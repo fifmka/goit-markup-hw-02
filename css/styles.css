@@ -14,7 +14,8 @@ body{
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
-/* Загальні */
+/* Головна сторінка */
+/* Загальні до головної сторінки*/
 .link {
     text-decoration: none;
 }
@@ -144,6 +145,7 @@ body{
     color: var(--accent-color);
 }
 /* Портфоліо */
+
 .list-portfolio{
     list-style: none;
 }
