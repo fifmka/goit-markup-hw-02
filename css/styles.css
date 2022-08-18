@@ -43,7 +43,7 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.list-nav .link:hover{
+.list-nav .link:hover, .list-nav .link:focus{
     color: var(--accent-color);
 }
 /* Контакти */
@@ -54,7 +54,7 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.contacts .link:hover {
+.contacts .link:hover, .contacts .link:focus{
     color: var(--accent-color);
 }
 /* Герой */
@@ -101,7 +101,6 @@ body{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-   
 }
 /* Команда */
 .team{
@@ -132,12 +131,50 @@ body{
 
 }
 .footer .link{
-color: var(--white-text-color);
-font-style: normal;
+    color: var(--white-text-color);
+    font-style: normal;
 }
 .footer-list .link{
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     font-size: 14px;
     line-height: 1.71 
+}
+.footer-list .link:hover, .footer-list .link:focus {
+    color: var(--accent-color);
+}
+/* Портфоліо */
+.list-portfolio{
+    list-style: none;
+}
+.button{
+    background-color: var(--additional-background-color);
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+}
+.list-portfolio .link{
+    text-decoration: none;
+}
+.list-portfolio .title{
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+}
+.list-portfolio .text{
+    color: var(--paragraph-color);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
