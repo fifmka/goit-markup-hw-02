@@ -131,9 +131,11 @@ body{
     color: var(--white-text-color);
 
 }
-.footer .link{
+.address .link{
     color: var(--white-text-color);
     font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .footer-list .link{
     color: rgba(255, 255, 255, 0.6);
@@ -159,13 +161,11 @@ body{
     cursor: pointer;
 }
 
-.button:hover{
+.button:hover, .button:focus{
     background-color: var(--accent-color);
     color: var(--white-text-color);
 }
-.list-portfolio .link{
-    text-decoration: none;
-}
+
 .list-portfolio .title{
     color: var(--primary-text-color);
     font-weight: 700;
