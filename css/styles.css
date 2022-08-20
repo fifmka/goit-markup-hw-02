@@ -44,6 +44,9 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.list-nav .link.current{
+    color: var(--accent-color);
+}
 .list-nav .link:hover, .list-nav .link:focus{
     color: var(--accent-color);
 }
@@ -90,12 +93,16 @@ body{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    text-transform: uppercase;
 }
 .section-text{
     font-size: 14px;
     line-height: 1.71;
 }
+/* Особливості */
+.section-title.specialty{
+    text-transform: uppercase;
+}
+
 /* Роботи */
 .works >.section-title{
     font-weight: 700;
