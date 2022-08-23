@@ -21,16 +21,7 @@ body{
 }
 .list{
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
-.conteiner{
-    width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
-
 /* Логотип header*/
 .header-logo{
     color: var(--logo-color);
@@ -73,107 +64,66 @@ body{
 /* Герой */
 .hero{
     background-color: var(--footer-color);
-    text-align: center;
 }
 .hero-title{
-    margin-top: 0;
-    margin-bottom: 30px;
     color: var(--white-text-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
-.button{
-    border-radius: 4px;
-    border: none;
-
-    font-size: 16px;
-    text-align: center;
-}
- .button:hover, .hero .button:focus {
-    background-color: var(--accent-color);
-    color: var(--white-text-color);
-}
-.hero .button{
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    min-width: 216px;
-    margin-bottom: 294px;
-    
+.hero-batton{
     color: var(--white-text-color);
     background-color: var(--accent-color);
     font-weight: 700;
+    font-size: 16px;
     line-height: 1.86;
+    display: flex;
+    align-items: center;
+    text-align: center;
     letter-spacing: 0.06em;
 }
-/* Секції Загальні налаштування*/
+/* Секції */
 .section .section-text{
     color: var(--paragraph-color);
 }
 .section-title{
-    margin-top: 0;
-    margin-bottom: 0;
-
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
 }
 .section-text{
-    margin-top: 0;
-    margin-bottom: 0;
     font-size: 14px;
     line-height: 1.71;
 }
 /* Особливості */
 .section-title.specialty{
-    margin-bottom: 10px;
     text-transform: uppercase;
-}
-.section.specialty {
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 /* Роботи */
-.works.section{
-    padding-bottom: 94px;
-}
-.works .section-title{
-    margin-bottom: 50px;
-
+.works >.section-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
 }
 /* Команда */
-.team.section{
+.team{
     background-color: var(--additional-background-color);
-    padding-top: 94px;
-    padding-bottom: 84px;
 }
-.team .section-title{
-    margin-bottom: 50px;
+.team > .section-title{
     font-weight: 700;
-
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
 }
-.team .photo{
-    margin-bottom: 30px;
-}
-.team .section-title.member{
-    margin-bottom: 10px;
-
+.team .member{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    text-align: left;
 }
 .team .section-text{
     font-weight: 400;
@@ -182,29 +132,17 @@ body{
 }
 /* Підвал */
 .footer{
-    padding-top: 60px;
-    padding-bottom: 60px;
-
     background-color: var(--footer-color);
-}
-.logo{
-    margin-bottom: 20px;
 }
 .footer-logo {
     color: var(--white-text-color);
 
 }
 .address .link{
-    display: inline-block;
-    margin-bottom: 9px;
-
     color: var(--white-text-color);
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-}
-.address .link.tel{
-    margin-bottom: 0px;
 }
 .footer-list .link{
     color: rgba(255, 255, 255, 0.6);
@@ -216,30 +154,24 @@ body{
     color: var(--accent-color);
 }
 /* Портфоліо */
-.portfolio{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-.title-portfolio{
-    margin-top: 0;
-    margin-bottom: 0;
-}
+
 .list-portfolio{
     list-style: none;
-    margin-bottom: 34px;
 }
-
-.list-portfolio .button{
+.button{
     background-color: var(--additional-background-color);
     color: var(--primary-text-color);
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.63;
+    text-align: center;
     cursor: pointer;
 }
-.list-portfolio .button:hover,
-.list-portfolio .button:focus {
+
+.button:hover, .button:focus{
     background-color: var(--accent-color);
-    color: var(--white-text-color);}
+    color: var(--white-text-color);
+}
 
 .list-portfolio .title{
     color: var(--primary-text-color);
